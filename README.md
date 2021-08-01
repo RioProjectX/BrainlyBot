@@ -20,3 +20,6 @@ Jika repository error/ngebug, Lapor ke [Bot](https://t.me/nekozusupportbot)
 
 [xditya](https://github.com/xditya)
 
+# Note
+Buat kang colong modul tanpa izin. Izin dulu jangan asal colong, orang capek capek ngebuat malah dicolong
+Kalo mau ngambil modul kasih tau ke [sini](https://t.me/NekozuSupportBot) awas kalo ketauan nyolong.
