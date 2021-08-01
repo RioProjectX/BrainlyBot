@@ -42,7 +42,7 @@ async def inline_query_handler(client, query):
         if len(string.split()) == 1:
             await client.answer_inline_query(query.id,
                                             results=answers,
-                                            switch_pm_text="Cari pertanyaan",
+                                            switch_pm_text="Cari Pertanyaan Di Private Chat",
                                             switch_pm_parameter="cari"
                                             )
             return
