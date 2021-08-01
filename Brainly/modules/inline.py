@@ -38,7 +38,7 @@ async def inline_query_handler(client, query):
             cache_time=300
         )
     answers = []
-    if string.split()[0] == "nhentai":
+    if string.split()[0] == "cari":
         if len(string.split()) == 1:
             await client.answer_inline_query(query.id,
                                             results=answers,
