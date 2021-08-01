@@ -1,4 +1,4 @@
-
+# Credits @xditya
 import os
 import logging
 import pyrogram
@@ -8,12 +8,11 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # vars
-APP_ID = config("APP_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
+APP_ID = config("api_id", default=None, cast=int)
+API_HASH = config("api_hash", default=None)
+BOT_TOKEN = config("token", default=None)
 
 if __name__ == "__main__" :
-    print("Starting Bot...")
     plugins = dict(root="Brainly/modules")
     app = pyrogram.Client(
         "BotzHub",
