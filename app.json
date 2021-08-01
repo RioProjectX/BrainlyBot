@@ -16,7 +16,7 @@
       "required": true
     },
     "api_hash": {
-      "description": "my.telegram.org,
+      "description": "my.telegram.org",
       "required": true
     }
   },
