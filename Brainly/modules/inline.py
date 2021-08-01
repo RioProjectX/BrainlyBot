@@ -35,8 +35,8 @@ async def inline_query_handler(client, query):
             switch_pm_parameter="start",
             cache_time=300
         )
-   answers = []
-    if string.split()[0] == "cari":
+    answers = []
+    if string.split()[0] == "nhentai":
         if len(string.split()) == 1:
             await client.answer_inline_query(query.id,
                                             results=answers,
