@@ -2,6 +2,8 @@ from pyrogram.types import (
     InputTextMessageContent,
     InlineQueryResultArticle,
     InlineQueryResultPhoto,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton
 )
 from pyrogram import Client, filters
 import requests
