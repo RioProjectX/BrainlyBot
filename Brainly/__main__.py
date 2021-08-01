@@ -2,7 +2,8 @@
 import os
 import logging
 import pyrogram
-from decouple import config
+from decouple import confrom pyrogram import idle, Clientfig
+
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
@@ -21,4 +22,6 @@ if __name__ == "__main__" :
         api_hash=API_HASH,
         plugins=plugins
     )
-app.run()
+
+app.start()
+idle()
