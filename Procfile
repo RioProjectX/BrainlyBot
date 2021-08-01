@@ -1,1 +1,1 @@
-nekozu: python -m Brainly
+worker: python -m Brainly
