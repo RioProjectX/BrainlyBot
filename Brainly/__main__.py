@@ -17,7 +17,7 @@ BOT_TOKEN = config("token", default=None)
 if __name__ == "__main__" :
     plugins = dict(root="Brainly/modules")
     app = pyrogram.Client(
-        "BotzHub",
+        "Nekozu",
         bot_token=BOT_TOKEN,
         api_id=APP_ID,
         api_hash=API_HASH,
