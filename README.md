@@ -10,3 +10,8 @@ Jika repository error/ngebug, Lapor ke [Bot](https://t.me/nekozusupportbot)
 
 # License
 [![LICENSE](https://www.gnu.org/graphics/gplv3-or-later.png)
+
+# Credits And Thanks
+[pyrogram](https://github.com/pyrogram)
+[xditya](https://github.com/xditya)
+
