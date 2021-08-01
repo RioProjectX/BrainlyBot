@@ -5,18 +5,18 @@
     "telegram",
     "bot"
   ],
-  "repository": "https://github.com/nekozu/Brainly-Telebot",
+  "repository": "https://github.com/nekozu/instagram-downloader",
   "env": {
-    "api_id": {
-      "description": "Dapatkan dari my.telegram.org.",
+    "token": {
+      "description": "Bot token kamu",
       "required": true
     },
     "api_hash": {
-      "description": "Dapatkan dari my.telegram.org.",
+      "description": "my.telegram.org",
       "required": true
     },
-    "token": {
-      "description": "Token bot mu. dari botfather.",
+    "api_id": {
+      "description": "my.telegram.org",
       "required": true
     }
   },
