@@ -1,22 +1,22 @@
 {
-"name": "Brainly-Telebot",
-  "description": "Brainly Telegram bot menggunakan pyrogram,
+"name": "brainly",
+  "description": "Brainly Bot Untuk Telegram",
   "keywords": [
     "telegram",
     "bot"
   ],
-  "repository": "https://github.com/nekozu/instagram-downloader",
+  "repository": "https://github.com/nekozu/Brainly-Telebot",
   "env": {
     "token": {
       "description": "Bot token kamu",
       "required": true
     },
-    "api_hash": {
+    "api_id": {
       "description": "my.telegram.org",
       "required": true
     },
-    "api_id": {
-      "description": "my.telegram.org",
+    "api_hash": {
+      "description": "my.telegram.org,
       "required": true
     }
   },
