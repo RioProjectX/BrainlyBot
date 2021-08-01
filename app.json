@@ -1,0 +1,29 @@
+{
+"name": "Brainly-Telebot",
+  "description": "Brainly Telegram bot menggunakan pyrogram,
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "repository": "https://github.com/nekozu/Brainly-Telebot",
+  "env": {
+    "api_id": {
+      "description": "Dapatkan dari my.telegram.org.",
+      "required": true
+    },
+    "api_hash": {
+      "description": "Dapatkan dari my.telegram.org.",
+      "required": true
+    },
+    "token": {
+      "description": "Token bot mu. dari botfather.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-20"
+}
