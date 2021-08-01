@@ -2,7 +2,8 @@
 import os
 import logging
 import pyrogram
-from decouple import confrom pyrogram import idle, Clientfig
+from decouple import config
+from pyrogram import idle, Client
 
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
