@@ -2,11 +2,10 @@ from pyrogram.types import (
     InputTextMessageContent,
     InlineQueryResultArticle,
     InlineQueryResultPhoto,
-    InlineKeyboardButton,
-    InlineKeyboardMarkup
 )
 from pyrogram import Client, filters
 import requests
+import traceback
 from pyrogram import errors, __version__
 from pyrogram.errors import PeerIdInvalid
 
@@ -36,12 +35,12 @@ async def inline_query_handler(client, query):
             switch_pm_parameter="start",
             cache_time=300
         )
-    answers = []
+   answers = []
     if string.split()[0] == "cari":
         if len(string.split()) == 1:
             await client.answer_inline_query(query.id,
                                             results=answers,
-                                            switch_pm_text="Cari pertanyaanmu",
+                                            switch_pm_text="Cari pertanyaan",
                                             switch_pm_parameter="cari"
                                             )
             return
