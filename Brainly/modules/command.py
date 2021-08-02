@@ -21,6 +21,6 @@ async def brainly(_, message: Message):
     query = get_text(message)
     url = "https://brainly-api.xlaaf.repl.co/br?soal="+query
     hasil = ses.get(url).json()
-    brainly = hasil['soal']['question']['content']
-    beh = hasil['jawaban']['content']
-    await message.reply_text("**Soal**\n`"+brainly+"`\n\n**Jawaban:**\n"+beh)
+    subs = hasil['soal']['question']['content']
+    nekozu = hasil['jawaban']['content']
+    await message.reply_text("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu)
