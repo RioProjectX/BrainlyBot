@@ -49,9 +49,9 @@ async def inline_query_handler(client, query):
         squery = string.split(None, 1)[1]
         url = "https://brainly-api.xlaaf.repl.co/br?soal="+squery
         hasil = ses.get(url).json()
-        brainly = hasil['soal']['question']['content']
-        beh = hasil['jawaban']['content']
-        pesan = f"**Soal**\n"+brainly+"\n\n**Jawaban:**\n"+beh
+        ynotan = hasil['soal']['question']['content']
+        nekozu = hasil['jawaban']['content']
+        pesan = f"**Soal**\n"+ynotan+"\n\n**Jawaban:**\n"+nekozu
         await client.answer_inline_query(query.id,
             results=[
                 InlineQueryResultArticle(
