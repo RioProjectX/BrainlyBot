@@ -18,7 +18,7 @@ def get_text(message: Message) -> [None, str]:
 
 @Client.on_message(filters.command(["cari"]))
 async def brainly(_, message: Message):
-    await message.edit("`Mencari..`")
+    await message.reply_text("`Mencari..`")
     query = get_text(message)
     if not query:
         await message.edit(
@@ -29,4 +29,4 @@ async def brainly(_, message: Message):
     hasil = ses.get(url).json()
     subs = hasil['soal']['question']['content']
     nekozu = hasil['jawaban']['content']
-    await message.reply_text("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu)
+    await message.edit("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu)
