@@ -18,7 +18,13 @@ def get_text(message: Message) -> [None, str]:
 
 @Client.on_message(filters.command(["cari"]))
 async def brainly(_, message: Message):
+    await message.edit("`Mencari..`")
     query = get_text(message)
+    if not query:
+        await message.edit(
+            "`Hah Kosong?!`"
+        )
+        return
     url = "https://brainly-api.xlaaf.repl.co/br?soal="+query
     hasil = ses.get(url).json()
     subs = hasil['soal']['question']['content']
