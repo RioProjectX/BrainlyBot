@@ -66,7 +66,7 @@ async def inline_query_handler(client, query):
                         ),
                         reply_markup=InlineKeyboardMarkup(
                         [[
-                        InlineKeyboardButton("🌐 Lihat Jawaban Diweb", url="https://brainly.co.id/app/ask?entry=hero&q="+squery)
+                        InlineKeyboardButton("🌐 Lihat Jawaban Diweb", url="https://brainly.co.id/app/ask?entry=hero&q="+squery),
                         InlineKeyboardButton("Ganti Jawaban", callback_data=answer)
                         ]]
                       )
