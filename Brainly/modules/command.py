@@ -30,4 +30,4 @@ async def brainly(_, message: Message):
     hasil = ses.get(url).json()
     subs = hasil['soal']['question']['content']
     nekozu = hasil['jawaban']['content']
-    await message.reply_text("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu, reply_markup=buttons)
+    await message.reply("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu, reply_markup=buttons)
