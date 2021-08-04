@@ -59,12 +59,7 @@ async def inline_query_handler(client, query):
                         description="Jawaban ditemukan",
                         input_message_content=InputTextMessageContent(
                             pesan
-                        ),
-                        reply_markup=InlineKeyboardMarkup(
-                        [[
-                        InlineKeyboardButton("🌐 Lihat Jawaban Diweb", url="https://brainly.co.id/app/ask?entry=hero&q="+squery)
-                        ]]
-                      )
+                        )
                     )
             ],
             cache_time=1
