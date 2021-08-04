@@ -20,14 +20,8 @@ def get_text(message: Message) -> [None, str]:
 @Client.on_message(filters.command(["cari"]))
 async def brainly(_, message: Message):
     query = get_text(message)
-    buttons = [
-        [
-            InlineKeyboardButton('Anime', url='https://brainly.co.id/app/ask?entry=hero&q='+query),
-        InlineKeyboardButton('Cari dengan inline', switch_inline_query_current_chat='cari ')
-        ]
-    ]
     url = "https://brainly-api.xlaaf.repl.co/br?soal="+query
     hasil = ses.get(url).json()
     subs = hasil['soal']['question']['content']
     nekozu = hasil['jawaban']['content']
-    await message.reply("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu+"\nSemoga membantu", reply_markup=buttons)
+    await message.reply("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu)
