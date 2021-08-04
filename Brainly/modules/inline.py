@@ -13,6 +13,10 @@ from pyrogram.errors import PeerIdInvalid
 
 ses = requests.session()
 
+def answer(client, callback_query):
+    callback_query.answer(f"Hanya bisa dipm :)", show_alert=True)
+
+
 @Client.on_inline_query()
 async def inline_query_handler(client, query):
     string = query.query.lower()
@@ -55,11 +59,16 @@ async def inline_query_handler(client, query):
         await client.answer_inline_query(query.id,
             results=[
                 InlineQueryResultArticle(
-                        title="Brainly",
-                        description="Cari Brainly",
+                        title="Jawaban",
+                        description="Jawaban ditemukan",
                         input_message_content=InputTextMessageContent(
                             pesan
-                        )
+                        ),
+                     reply_markup=InlineKeyboardMarkup(
+                        [[
+                        InlineKeyboardButton("🌐 Lihat Jawaban Diweb", url="https://brainly.co.id/app/ask?entry=hero&q="+squery)
+                        InlineKeyboardButton("Ganti Jawaban", callback_data=answer)
+                        ]]
                     )
             ],
             cache_time=1
