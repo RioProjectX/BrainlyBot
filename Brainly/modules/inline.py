@@ -14,7 +14,7 @@ from pyrogram.errors import PeerIdInvalid
 ses = requests.session()
 
 def answer(client, callback_query):
-    callback_query.answer(f"Hanya bisa dipm :)", show_alert=True)
+    callback_query.answer(f"Tidak bisa pada saat inline :)", show_alert=True)
 
 
 @Client.on_inline_query()
