@@ -16,8 +16,8 @@ def get_text(message: Message) -> [None, str]:
             return None
     else:
         return None
-
-@Client.on_message(filters.text)
+    
+@Client.on_message(filters.command(["cari"]))
 async def brainly(_, message: Message):
     query = get_text(message)
     url = "https://brainly-api.xlaaf.repl.co/br?soal="+query
