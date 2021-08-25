@@ -1,1 +1,1 @@
-worker: python -m Brainly
+process: python -m Brainly
