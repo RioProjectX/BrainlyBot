@@ -21,7 +21,7 @@ async def inline_query_handler(client, query):
             results=[
                 InlineQueryResultPhoto(
                     caption="Halo! Cari Mau Cari Jawaban Diinline Ya? Pilih Tombol Dibawah",
-                    photo_url="https://telegra.ph/file/9dfdfffd59fc5ab836468.jpg",
+                    photo_url="https://telegra.ph/file/ae2101aa6bed02b9d27f2.jpg",
                     parse_mode="markdown",
                     title=f"Bantuan",
                     description=f"Tekan disini..",
