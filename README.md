@@ -27,6 +27,7 @@ Jika repository error/ngebug, Lapor ke [Rio](https://t.me/riio00)
 
 # Credits And Thanks
 [pyrogram](https://github.com/pyrogram)
+[Nezuko](https://github.com/nekozu) Dev
 
 # Group Channel
 [Group](t.me/siiniaja) [Channel](t.me/riobotsupport)
