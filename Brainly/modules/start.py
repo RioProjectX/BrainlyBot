@@ -1,4 +1,5 @@
 from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, Chat, CallbackQuery
 
 @Client.on_message(filters.command(["start"]))
 async def start(bot, update):
