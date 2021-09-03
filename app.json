@@ -1,14 +1,14 @@
 {
-"name": "brainly",
+"name": "Brainly Bot",
   "description": "Brainly Bot Untuk Telegram",
   "keywords": [
     "telegram",
     "bot"
   ],
-  "repository": "https://github.com/nekozu/Brainly-Telebot",
+  "repository": "https://github.com/RioProjectX/BrainlyBot",
   "env": {
     "token": {
-      "description": "Bot token kamu",
+      "description": "Bot token kamu dari @botfather",
       "required": true
     },
     "api_id": {
