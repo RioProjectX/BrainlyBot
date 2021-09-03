@@ -24,10 +24,10 @@ async def inline_query_handler(client, query):
                     photo_url="https://telegra.ph/file/9dfdfffd59fc5ab836468.jpg",
                     parse_mode="markdown",
                     title=f"Bantuan",
-                    description=f"Pencet disini..",
+                    description=f"Tekan disini..",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                        InlineKeyboardButton("Channel Bot", url="https://t.me/nekozu"),
+                        InlineKeyboardButton("Channel Bot", url="https://t.me/riobotsupport"),
                         InlineKeyboardButton(text="Cari", switch_inline_query_current_chat="cari")
                         ]]
                     )
