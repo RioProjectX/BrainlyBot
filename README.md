@@ -1,12 +1,11 @@
 # Brainly-Telebot
-Bot Untuk Mencari Jawaban Dibrainly
-Jika ingin clone. Boleh kok
+Bot Untuk Mencari Jawaban Dibrainly Dengan Telegram . Boleh kok
 Dibuat dengan python menggunakan [MTproto](https://core.telegram.org/mtproto) Library. Yaitu [`Pyrogram`](https://docs.pyrogram.org)
 Bot yang [aktif](https://t.me/brainlynbot)
 
 # Local Run
 ```
-$ git clone https://github.com/nekozu/brainly-telebot
+$ git clone https://github.com/RioPtojectX/BrainlyBot
 
 $ cd brainly-telebot
 
@@ -20,15 +19,16 @@ $ python -m Brainly
 ```
 
 # Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nekozu/Brainly-Telebot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RioProjectX/BrainlyBot.git)
 
 # Support 
-Jika repository error/ngebug, Lapor ke [Bot](https://t.me/nekozusupportbot)
+Jika repository error/ngebug, Lapor ke [Rio](https://t.me/riio00)
 
 # Credits And Thanks
 [pyrogram](https://github.com/pyrogram)
 
-[xditya](https://github.com/xditya)
+# Group Channel
+[Group](t.me/siiniaja) [Channel](t.me/riobotsupport)
 
 # License
 [![LICENSE](https://www.gnu.org/graphics/gplv3-or-later.png)
