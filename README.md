@@ -1,3 +1,4 @@
+![LOGO](https://telegra.ph/file/ae2101aa6bed02b9d27f2.jpg)
 # Brainly-Telebot
 Bot Untuk Mencari Jawaban Dibrainly Dengan Telegram . Boleh kok
 Dibuat dengan python menggunakan [MTproto](https://core.telegram.org/mtproto) Library. Yaitu [`Pyrogram`](https://docs.pyrogram.org)
