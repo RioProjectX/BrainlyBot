@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,                                                                                                                                                                                                 
-        text="**Halo Saya Adalah Bot Untuk Mencari Jawaban Dibrainly , Saya Dibuat Oleh [Rio](t.me/riio00)!**, Ketik /cari pertanyaan untuk mencari pertanyaan, Bisa menggunakan inline juga loh! Contoh @brainlyriobot cari siapa penemu sepeda?` .",
+        text="**Halo Saya Adalah Bot Untuk Mencari Jawaban Dibrainly , Saya Dibuat Oleh @Riio00 !**, Ketik /cari pertanyaan untuk mencari pertanyaan, Bisa menggunakan inline juga loh! Contoh @brainlyriobot cari siapa penemu sepeda?` .",
         reply_to_message_id=update.message_id,
         parse_mode="markdown"
     )
