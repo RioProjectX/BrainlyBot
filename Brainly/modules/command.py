@@ -24,4 +24,4 @@ async def brainly(_, message: Message):
     hasil = ses.get(url).json()
     subs = hasil['soal']['question']['content']
     nekozu = hasil['jawaban']['content']
-    await message.reply("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+riobotsupport)
+    await message.reply("**Soal**\n`"+subs+"`\n\n**Jawaban:**\n"+nekozu)
