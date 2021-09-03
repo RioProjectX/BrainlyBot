@@ -12,8 +12,6 @@ async def start(bot, update):
                        ],[
                           InlineKeyboardButton(
                              "🌐 Channel", url="https://t.me/riobotsupport")
-                                              ]]
+                      ]]
                     ))
-   else:
-      await m.reply("**✨ Bot Aktif! Siap Menjawab Pertanyaanmu ✨**")
 
