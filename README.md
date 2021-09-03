@@ -26,8 +26,8 @@ $ python -m Brainly
 Jika repository error/ngebug, Lapor ke [Rio](https://t.me/riio00)
 
 # Credits And Thanks
-[pyrogram](https://github.com/pyrogram)
-[Nezuko](https://github.com/nekozu) Dev
+* [pyrogram](https://github.com/pyrogram)
+* [Nezuko](https://github.com/nekozu)
 
 # Group Channel
 [Group](t.me/siiniaja) [Channel](t.me/riobotsupport)
