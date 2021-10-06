@@ -23,14 +23,14 @@ $ python -m Brainly
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RioProjectX/BrainlyBot.git)
 
 # Support 
-Jika repository error/ngebug, Lapor ke [Rio](https://t.me/riio00)
+Jika repository error/ngebug, Lapor ke [Rio](https://t.me/fckualot)
 
 # Credits And Thanks
 * [pyrogram](https://github.com/pyrogram)
 * [Nezuko](https://github.com/nekozu)
 
 # Group Channel
-[Group](t.me/siiniaja) [Channel](t.me/riobotsupport)
+[Group](t.me/riogroupsupport) [Channel](t.me/rioprojects)
 
 # License
 [![LICENSE](https://www.gnu.org/graphics/gplv3-or-later.png)
