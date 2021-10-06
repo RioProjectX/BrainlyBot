@@ -27,7 +27,7 @@ async def inline_query_handler(client, query):
                     description=f"Tekan disini..",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                        InlineKeyboardButton("Channel Bot", url="https://t.me/riobotsupport"),
+                        InlineKeyboardButton("Channel Bot", url="https://t.me/rioprojects"),
                         InlineKeyboardButton(text="Cari", switch_inline_query_current_chat="cari")
                         ]]
                     )
