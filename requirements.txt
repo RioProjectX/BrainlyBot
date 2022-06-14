@@ -5,3 +5,5 @@ pyromod==1.5
 pyrogram1==0.*
 TgCrypto==1.2.3
 pyrogram==2.0.19
+python-dotenv==0.20.0
+psycopg2==2.9.3
