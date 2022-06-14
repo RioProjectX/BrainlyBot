@@ -1,3 +1,7 @@
 pyrogram
 python-decouple
 requests
+pyromod==1.5
+pyrogram1==0.*
+TgCrypto==1.2.3
+pyrogram==2.0.19
