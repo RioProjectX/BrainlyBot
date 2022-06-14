@@ -15,6 +15,10 @@
       "description": "my.telegram.org",
       "required": true
     },
+    "MUST_JOIN": {
+      "description": "if u dont understand leave it",
+      "required": false
+    },
     "api_hash": {
       "description": "my.telegram.org",
       "required": true
