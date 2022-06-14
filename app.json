@@ -7,11 +7,11 @@
   ],
   "repository": "https://github.com/RioProjectX/BrainlyBot",
   "env": {
-    "token": {
+    "BOT_TOKEN": {
       "description": "Bot token kamu dari @botfather",
       "required": true
     },
-    "api_id": {
+    "API_ID": {
       "description": "my.telegram.org",
       "required": true
     },
@@ -19,7 +19,7 @@
       "description": "if u dont understand leave it",
       "required": false
     },
-    "api_hash": {
+    "API_HASH": {
       "description": "my.telegram.org",
       "required": true
     }
